@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: product-roadmap
+    runtime: docker
+    repo: https://github.com/generatemomentum/product-roadmap
+    branch: main
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: WORKOS_CLIENT_ID
+        sync: false
+      - key: WORKOS_API_KEY
+        sync: false
+      - key: WORKOS_COOKIE_PASSWORD
+        sync: false
+      - key: NEXT_PUBLIC_WORKOS_REDIRECT_URI
+        value: https://roadmap.kernel.ai/auth/callback
+      - key: LINEAR_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://roadmap.kernel.ai
+      - key: LINEAR_PROJECT_ID
+        value: e3ea029b9e03

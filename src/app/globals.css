@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans:
+    "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+
+  /* Kernel Brand Colors */
+  --color-ink: #343539;
+  --color-sage-600: #98a59c;
+  --color-sage-500: #b5c4b6;
+  --color-sage-400: #c8d5c9;
+  --color-sage-300: #d5e2d6;
+  --color-sage-200: #e2ede3;
+  --color-sage-100: #f0f6f1;
+
+  /* Amber colors for internal badge */
+  --color-amber-100: #fef3c7;
+  --color-amber-200: #fde68a;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+  --color-amber-700: #b45309;
+
+  --color-bg: #f5f6f6;
+  --color-panel: #f5f6f6;
+  --color-muted-text: #a1a1a2;
+  --color-border-kernel: #eaebee;
+
+  /* shadcn/ui CSS variable mappings */
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 12px;
+  --background: #f5f6f6;
+  --foreground: #343539;
+  --card: #ffffff;
+  --card-foreground: #343539;
+  --popover: #ffffff;
+  --popover-foreground: #343539;
+  --primary: #b5c4b6;
+  --primary-foreground: #343539;
+  --secondary: #f5f6f6;
+  --secondary-foreground: #343539;
+  --muted: #f5f6f6;
+  --muted-foreground: #a1a1a2;
+  --accent: #b5c4b6;
+  --accent-foreground: #343539;
+  --destructive: #dc2626;
+  --border: #eaebee;
+  --input: #eaebee;
+  --ring: #98a59c;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
