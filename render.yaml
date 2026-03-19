@@ -2,7 +2,7 @@ services:
   - type: web
     name: product-roadmap
     runtime: docker
-    repo: https://github.com/generatemomentum/product-roadmap
+    repo: https://github.com/OllieTheWorldsBestCoder/product-roadmap
     branch: main
     plan: starter
     healthCheckPath: /api/health

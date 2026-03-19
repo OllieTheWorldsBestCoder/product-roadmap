@@ -3,6 +3,7 @@ import { getSessionContext } from '@/lib/session';
 import { Header } from '@/components/header';
 import { RoadmapHero } from '@/components/roadmap-hero';
 import { RoadmapTimeline } from '@/components/roadmap-timeline';
+import { RoadmapFooter } from '@/components/roadmap-footer';
 
 export const dynamic = 'force-dynamic';
 
@@ -12,15 +13,12 @@ export default async function RoadmapPage() {
 
   return (
     <div className="min-h-screen bg-bg">
-      <Header
-        isLoggedIn={session.isLoggedIn}
-        isKernelTeam={session.isKernelTeam}
-        user={session.user}
-      />
+      <Header isKernelTeam={session.isKernelTeam} />
       <RoadmapHero projects={projects} />
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <RoadmapTimeline projects={projects} isKernelTeam={session.isKernelTeam} />
       </main>
+      <RoadmapFooter isLoggedIn={session.isLoggedIn} user={session.user} />
     </div>
   );
 }
