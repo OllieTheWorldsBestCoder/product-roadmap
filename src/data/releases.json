@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2026-03-21",
+    "title": "Kernel MCP Server",
+    "category": "Integrations",
+    "description": "Connect your AI tools directly to Kernel's entity database via Model Context Protocol. Works with Claude, Cursor, and any MCP-compatible client.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-18",
+    "title": "Bulk enrichment API v2",
+    "category": "Platform",
+    "description": "Redesigned bulk enrichment endpoint with streaming responses, better error handling, and support for up to 50k records per batch.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-14",
+    "title": "LinkedIn identity resolution improvements",
+    "category": "Data",
+    "description": "Improved matching accuracy for LinkedIn URLs to KERN IDs, including better handling of vanity URLs and regional profiles.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Salesforce managed package v3.1",
+    "category": "Integrations",
+    "description": "Updated Salesforce package with support for custom object mapping, field-level sync controls, and improved error logging.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-07",
+    "title": "Corporate hierarchy depth increase",
+    "category": "Corporate hierarchies",
+    "description": "Extended hierarchy resolution from 5 to 12 levels, covering complex multinational structures like franchise networks and holding companies.",
+    "internal": false
+  }
+]

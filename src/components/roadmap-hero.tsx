@@ -44,7 +44,7 @@ export function RoadmapHero({ projects }: HeroProps) {
           <h1 className="text-[32px] sm:text-[40px] font-semibold leading-tight mb-5 text-white">
             What we&apos;re building
           </h1>
-          <p className="text-[16px] leading-relaxed text-white/60 max-w-2xl">
+          <p className="text-[16px] leading-relaxed text-white max-w-2xl">
             From the KERN ID to territory planning, every item here makes Kernel&apos;s
             entity data more complete, more trusted, and more deeply embedded in how
             your revenue team works.

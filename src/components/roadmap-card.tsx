@@ -25,7 +25,7 @@ export function RoadmapCard({ project, isKernelTeam, isSelected, onSelect }: Pro
       className={cn(
         'group w-full text-left rounded-xl border bg-white transition-all duration-150',
         'flex flex-col overflow-hidden',
-        'hover:shadow-md hover:-translate-y-px',
+        'hover:shadow-md motion-safe:hover:-translate-y-px',
         isShipped && 'opacity-75 hover:opacity-100',
         isSelected
           ? 'ring-2 ring-sage-600/30 border-sage-500 shadow-md -translate-y-px'
@@ -79,16 +79,16 @@ export function RoadmapCard({ project, isKernelTeam, isSelected, onSelect }: Pro
         )}
 
         {/* Footer — pinned to bottom */}
-        <div className="flex items-center justify-between mt-4 pt-3 border-t border-border-kernel/60">
+        <div className="flex items-center justify-between gap-2 mt-4 pt-3 border-t border-border-kernel/60">
           {project.theme && themeColor ? (
             <span
-              className="text-[11px] font-semibold px-2 py-0.5 rounded-full"
+              className="text-[11px] font-semibold px-2 py-0.5 rounded-full truncate min-w-0"
               style={{ color: themeColor, backgroundColor: `${themeColor}18` }}
             >
               {project.theme}
             </span>
           ) : (
-            <span className="text-[11px] text-muted-text font-medium">{project.theme ?? ''}</span>
+            <span className="text-[11px] text-muted-text font-medium truncate min-w-0">{project.theme ?? ''}</span>
           )}
           {project.progress > 0 && (
             <div className="flex items-center gap-2">

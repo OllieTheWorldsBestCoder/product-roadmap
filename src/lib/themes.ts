@@ -1,20 +1,18 @@
 // Theme → accent colour mapping (used on cards and filter pills)
 export const THEME_COLORS: Record<string, string> = {
-  'Entity database':           '#98a59c', // sage-600
-  'Data management platform':  '#6b8cae', // muted blue-slate
-  'Family trees':              '#5a9e8a', // teal
-  'Workflows':                 '#8b7fce', // muted indigo
-  'Integrations':              '#c4943a', // muted amber
-  'Developer':                 '#9e7abd', // muted violet
+  'Platform':               '#6b8cae', // muted blue-slate
+  'Data':                   '#98a59c', // sage-600
+  'Corporate hierarchies':  '#5a9e8a', // teal
+  'Workflows':              '#8b7fce', // muted indigo
+  'Integrations':           '#c4943a', // muted amber
 };
 
 export const THEME_ORDER = [
-  'Entity database',
-  'Data management platform',
-  'Family trees',
+  'Platform',
+  'Data',
+  'Corporate hierarchies',
   'Workflows',
   'Integrations',
-  'Developer',
 ];
 
 // Quarter helpers
