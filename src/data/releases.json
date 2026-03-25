@@ -1,9 +1,51 @@
 [
   {
-    "date": "2026-03-21",
-    "title": "Kernel MCP Server",
+    "date": "2026-03-20",
+    "title": "Risk score dynamic dates and date pickers",
+    "category": "Platform",
+    "description": "Date fields in risk scoring now support relative ranges like 'last 3 months' and include date pickers for faster configuration.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-20",
+    "title": "Sandbox to production config copy",
+    "category": "Platform",
+    "description": "Copy risk configurations between sandbox and production environments with one click, removing manual re-entry.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-20",
+    "title": "Merge experience improvements",
+    "category": "Platform",
+    "description": "Filter merges by status, clearer loading states, and fixes for display errors that made the screen jumpy.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-19",
+    "title": "Cleaning View for new identity world",
+    "category": "Platform",
+    "description": "The Cleaning View now displays different field sets depending on whether a customer is on the new or old identity model.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-19",
+    "title": "Microsoft Dynamics integration",
     "category": "Integrations",
-    "description": "Connect your AI tools directly to Kernel's entity database via Model Context Protocol. Works with Claude, Cursor, and any MCP-compatible client.",
+    "description": "Full feature parity with Salesforce in Microsoft Dynamics: field mapping, CRM sync, mass actions, and enrichment.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-19",
+    "title": "Create missing parents",
+    "category": "Corporate hierarchies",
+    "description": "Kernel identifies parent accounts missing from your CRM and creates them automatically, placing every subsidiary correctly in the hierarchy.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-19",
+    "title": "Bulk CSV enrichment",
+    "category": "Platform",
+    "description": "Upload a CSV of company names and URLs and get back firmographic data, hierarchy context, and KERN IDs without a CRM connection.",
     "internal": false
   },
   {
@@ -14,24 +56,10 @@
     "internal": false
   },
   {
-    "date": "2026-03-14",
-    "title": "LinkedIn identity resolution improvements",
-    "category": "Data",
-    "description": "Improved matching accuracy for LinkedIn URLs to KERN IDs, including better handling of vanity URLs and regional profiles.",
-    "internal": false
-  },
-  {
     "date": "2026-03-10",
     "title": "Salesforce managed package v3.1",
     "category": "Integrations",
     "description": "Updated Salesforce package with support for custom object mapping, field-level sync controls, and improved error logging.",
-    "internal": false
-  },
-  {
-    "date": "2026-03-07",
-    "title": "Corporate hierarchy depth increase",
-    "category": "Corporate hierarchies",
-    "description": "Extended hierarchy resolution from 5 to 12 levels, covering complex multinational structures like franchise networks and holding companies.",
     "internal": false
   }
 ]
