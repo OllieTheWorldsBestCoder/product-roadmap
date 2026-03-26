@@ -1,6 +1,41 @@
 [
   {
     "date": "2026-03-20",
+    "title": "Classifier multiple option sets",
+    "category": "Platform",
+    "description": "Classifiers now support multiple sets of options linked to different fields for more flexible categorization.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-18",
+    "title": "Business unit headcount research",
+    "category": "Data",
+    "description": "Kernel now researches headcount for business units instead of defaulting to zero, surfacing published data where available.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-12",
+    "title": "Bidirectional custom object push",
+    "category": "Integrations",
+    "description": "CRM push now supports both relationship directions for custom objects, covering more Salesforce data models.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Break cyclic parent/child relationships",
+    "category": "Corporate hierarchies",
+    "description": "A new automated agent detects and resolves cyclic parent/child hierarchies using AI to determine the correct direction.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-06",
+    "title": "Salesforce connection health monitoring",
+    "category": "Integrations",
+    "description": "Automated checks every 10 minutes detect broken Salesforce connections, with one-click re-authentication emails to clients.",
+    "internal": false
+  },
+  {
+    "date": "2026-03-20",
     "title": "Risk score dynamic dates and date pickers",
     "category": "Platform",
     "description": "Date fields in risk scoring now support relative ranges like 'last 3 months' and include date pickers for faster configuration.",
