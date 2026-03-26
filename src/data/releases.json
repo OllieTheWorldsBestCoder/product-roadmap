@@ -57,13 +57,6 @@
   },
   {
     "date": "2026-03-19",
-    "title": "Cleaning View for new identity world",
-    "category": "Platform",
-    "description": "The Cleaning View now displays different field sets depending on whether a customer is on the new or old identity model.",
-    "internal": false
-  },
-  {
-    "date": "2026-03-19",
     "title": "Microsoft Dynamics integration",
     "category": "Integrations",
     "description": "Full feature parity with Salesforce in Microsoft Dynamics: field mapping, CRM sync, mass actions, and enrichment.",
